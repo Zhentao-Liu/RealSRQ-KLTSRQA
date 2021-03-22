@@ -10,5 +10,4 @@ This dataset concludes 60 high resolution (HR) images, 180 low resolution (LR) i
 # KLTSRQA
 In our paper, we demonstrate that the existing objective metrics can not precisely evaluated the SISR results. To solve this problem, we propose a new objective metric, i.e., KLTSRQA, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of real-world SISR images accurately. The extensive experiments in our paper demonstrate that KLTSRQA is highly consistent with human perception.
 
-# Download Our Program
-Baidu Netdisk Link:      Key:
+# Download
