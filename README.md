@@ -69,7 +69,7 @@ First, we test the performance of *KLTSRQA* on *RealSRQ*. To demonstrate the sup
 
 The scatter plots of different metrics are shown in the following figure. We can observe that the proposed *KLTSRQA* metric is more in line with subjective B-T scores.
 
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig9.PNG" width="1008" height="755"/><br/>
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig9.PNG" width="756" height="576"/><br/>
 
 To further demonstrate the superiority of *KLTSRQA*, we also conduct the statistical significance test by using the data of SROCC values. The following figure presents the t-test results, where the value 1/-1 indicates that row algorithms perform statistically better/worse than the column algorithms while the value 0 indicates that row algorithms perform statistically competitive with the column algorithms. As we can see, *KLTSRQA* performs statistically better than all the competing NR-IQA metrics on *RealSRQ*, which further prove the superiority of *KLTSRQA*.
 
@@ -78,11 +78,11 @@ To further demonstrate the superiority of *KLTSRQA*, we also conduct the statist
 ### Algorithm Performance Test on *QADS*
 In addition to *RealSRQ*, we also conduct performance test on a recently published synthetic SISR dataset *QADS* to more comprehensively validate the performance of *KLTSRQA*. The numerical performance results are shown in the following table. *KLTSRQA* still achieves the best numerical performance results (i.e., the highest PLCC, KROCC, and SROCC values, while the lowest RMSE value) on *QADS*. 
 
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="504" height="467"/><br/>
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="252" height="233"/><br/>
 
 The scatter plots are shown in the following figure. The scatter plot of *KLTSRQA* is also highly in line with the subjective scores, which further demonstrates its superiority and good robustness on different datasets.
 
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig11.PNG" width="1008" height="756"/><br/>
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig11.PNG" width="756" height="576"/><br/>
 
 The following figure presents the t-test results. It is seen that *KLTSRQA* performs statistically better than almost all the competing NR-IQA metrics.
 
