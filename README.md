@@ -23,10 +23,22 @@ The top two row presents two SISR results to be compared. The HR image is shown 
 
 ## Subjective Study Result Analysis
 ### Global Ranking of SISR Algorithms
-We adopt the Bradley-Terry model to derive the global ranking of SISR algorithms from the corresponding pairwise comparison results. By applying the B-T model on each group, we can get a B-T score for each SISR result in this group. Then, we rank the evaluated SISR results/algorithms based on the average B-T scores, as shown in the following figure.
+We adopt the Bradley-Terry model to derive the global ranking of SISR algorithms from the corresponding pairwise comparison results. By applying the B-T model on each group, we can get a B-T score for each SISR result in this group. Then, we rank the evaluated SISR results/algorithms based on the average B-T scores, as shown in the following figure. It is easily to find that ASDS gets the highest B-T score at all scaling factors.
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig2.PNG" width="863" height="227"/><br/>
 
+### Convergence Analysis
+We perform convergence analysis from two perspectives: the number of votes and the number of images to demonstrate that the number of votes and images are sufficient to obtain stable subjective rating scores.
+#### Number of votes
+We collect 65400 votes in total. There are 27000 votes for LR2, 21600 votes for LR3 and 16800 votes for LR4. We randomly sample *a* (*a*=1000,3000,6000,9000,12000,15000) votes from all votes at each scaling factor, and compute B-T score. We repeat this process 1000 times for each *a*.  The following figure shows the mean and standard deviation of B-T scores for each *a* for LR4. Obviously, with the increasing of the number of votes, standard deviation of B-T scores decreases, indicating the subjective rating scores tend to be stable.
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig3.PNG" width="409" height="291"/><br/>
+
+#### Number of votes
+We collect 60 HR images in total. We randomly sample *a* (*a*=5,15,25,35,45,55) HR images from our dataset and compute B-T score for each SISR algorithm at each scaling factor. We repeat this process 1000 times for each *a*.  The following figure shows the mean and standard deviation of B-T scores for each *a* for LR4. Obviously, with the increasing of the number of images, standard deviation of B-T Scores decreases, indicating the subjective rating scores
+tend to be stable.
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig4.PNG" width="409" height="291"/><br/>
 
 # KLTSRQA
 In our paper, we demonstrate that the existing objective metrics can not precisely evaluated the SISR results. To solve this problem, we propose a new objective metric, i.e., KLTSRQA, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of real-world SISR images accurately. The extensive experiments in our paper demonstrate that KLTSRQA is highly consistent with human perception.
