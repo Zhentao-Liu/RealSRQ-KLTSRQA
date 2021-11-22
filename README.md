@@ -68,7 +68,9 @@ shown in the following table. As shown, KLTSRQA achieves the best performance in
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table3.PNG" width="739" height="287"/><br/>
 
+The scatter plots of different metrics are shown in the following figure. We can observe that the proposed KLTSRQA metric is more in line with subjective B-T scores.
 
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig9.PNG" width="1008" height="755"/><br/>
 
 
 # Download
