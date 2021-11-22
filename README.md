@@ -61,5 +61,15 @@ The flow chart of KLTSRQA is depicted in the following figure. The input of KLTS
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig8.PNG" width="618" height="288"/><br/>
 
+## Experimental Results
+### Algorithm Performance Test on *RealSRQ*
+First, we test the performance of *KLTSRQA* on *RealSRQ*. To demonstrate the superiority of our method, 15 existing relevant NR-IQA metrics, including two most recent dedicated metrics for image restoration and super-resolution, are implemented for comparison. The selected 15 NR-IQA metrics are GM-LOG, BLIINDS-II, CurveletQA, BRISQUE, OG-IQA, SSEQ, DIIVINE, RISE, BMPRI, FRIQUEE, NIQE, ILNIQE, HVS-MaxPol, PCRL, and SR-metric. Among these methods, NIQE, ILNIQE, and HVS-MaxPol are training-free while the rests are all training-based. For all the training-based methods, the regression functions are all implemented by SVMrank for fair comparison. The performance results of these algorithms are
+shown in the following table. As shown, KLTSRQA achieves the best performance in terms of all performance criteria at all three scaling factors.
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table3.PNG" width="739" height="287"/><br/>
+
+
+
+
 # Download
 You can download our constructed dataset [*RealSRQ*](https://pan.baidu.com/s/14yuztHcMpej5OyNMBvK3BA) (key:1121) on BaiduYun disk. As long as our paper is published, we will upload our software *KLTSRQA*. To be continued.
