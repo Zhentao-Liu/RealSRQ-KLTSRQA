@@ -62,7 +62,7 @@ The flow chart of *KLTSRQA* is depicted in the following figure. The input of *K
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig8.PNG" width="618" height="288"/><br/>
 
 ## Experimental Results
-### Algorithm Performance Test on *RealSRQ*
+### Algorithm Performance Test on RealSRQ
 First, we test the performance of *KLTSRQA* on *RealSRQ*. To demonstrate the superiority of our method, 15 existing relevant NR-IQA metrics for comparison. The selected 15 NR-IQA metrics are GM-LOG, BLIINDS-II, CurveletQA, BRISQUE, OG-IQA, SSEQ, DIIVINE, RISE, BMPRI, FRIQUEE, NIQE, ILNIQE, HVS-MaxPol, PCRL, and SR-metric. Among these methods, NIQE, ILNIQE, and HVS-MaxPol are training-free while the rests are all training-based. For all the training-based methods, the regression functions are all implemented by SVMrank for fair comparison. The performance results of these algorithms are shown in the following table. As shown, *KLTSRQA* achieves the best performance in terms of all performance criteria, i.e., KROCC, SROCC, PLCC, and RMSE, at all three scaling factors. 
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table3.PNG" width="739" height="287"/><br/>
@@ -75,7 +75,7 @@ To further demonstrate the superiority of *KLTSRQA*, we also conduct the statist
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig10.PNG" width="391" height="290"/><br/>
 
-### Algorithm Performance Test on *QADS*
+### Algorithm Performance Test on QADS
 In addition to *RealSRQ*, we also conduct performance test on a recently published synthetic SISR dataset *QADS* to more comprehensively validate the performance of *KLTSRQA*. The numerical performance results are shown in the following table. *KLTSRQA* still achieves the best numerical performance results (i.e., the highest PLCC, KROCC, and SROCC values, while the lowest RMSE value) on *QADS*. 
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="320" height="340"/><br/>
