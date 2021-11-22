@@ -35,8 +35,7 @@ We collect 65400 votes in total. There are 27000 votes for LR2, 21600 votes for 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig3.PNG" width="409" height="291"/><br/>
 
 #### Number of votes
-We collect 60 HR images in total. We randomly sample *a* (*a*=5,15,25,35,45,55) HR images from our dataset and compute B-T score for each SISR algorithm at each scaling factor. We repeat this process 1000 times for each *a*.  The following figure shows the mean and standard deviation of B-T scores for each *a* for LR4. Obviously, with the increasing of the number of images, standard deviation of B-T Scores decreases, indicating the subjective rating scores
-tend to be stable.
+We collect 60 HR images in total. We randomly sample *a* (*a*=5,15,25,35,45,55) HR images from our dataset and compute B-T score for each SISR algorithm at each scaling factor. We repeat this process 1000 times for each *a*.  The following figure shows the mean and standard deviation of B-T scores for each *a* for LR4. Obviously, with the increasing of the number of images, standard deviation of B-T Scores decreases, indicating the subjective rating scores tend to be stable.
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig4.PNG" width="409" height="291"/><br/>
 
@@ -44,6 +43,13 @@ tend to be stable.
 We apply significance test to classify the evaluated algorithms based on the difference of the subjective votes. The following figure shows the grouping results for LR2. Algorithm's performance decreases from left to right. ASDS and USRnet always fall into first and second ranking groups.
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig5.PNG" width="381" height="220"/><br/>
+
+### Human Preference Analysis
+This part analyzes the results collected in the additional questionnaire during the human subjective study. We show the vote percentages of all the reasons for LR2 in the following figure. 
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig6.PNG" width="361" height="206"/><br/>
+
+
 
 # KLTSRQA
 In our paper, we demonstrate that the existing objective metrics can not precisely evaluated the SISR results. To solve this problem, we propose a new objective metric, i.e., KLTSRQA, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of real-world SISR images accurately. The extensive experiments in our paper demonstrate that KLTSRQA is highly consistent with human perception.
