@@ -52,7 +52,7 @@ As shown above, the distortions on macro-structures (e.g., edges and contours) a
 
 In this work, we decompose the original image into 64 KLT spectral components. In the above figure, (a) is the original image, (b)-(h) are the reconstructed images by using the former *k* KLT spectral components, and *k* = 1,2,4,8,16,32,64, respectively. As shown in (b), when only the 1-st spectral component is involved in the reconstruction process, almost all the macro-structures are recovered. As *k* increases, the small textures and details become richer and clearer. We then present more results to demonstrate the role of the lase *k* spectral components in image reconstruction. The following figure shows the difference maps between the adjacent reconstruction results shown in the above figure. 
 
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig13.PNG" width="876" height="592"/><br/>
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig13.PNG" width="600" height="400"/><br/>
 
 Note that, (a) is exactly the reconstruction result by only using the 2-nd spectral component. (b) is exactly the reconstruction result by only using the 3-rd and 4-th spectral components, and so on. 
 
