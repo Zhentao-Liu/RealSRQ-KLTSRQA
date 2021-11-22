@@ -17,6 +17,10 @@ We also conduct a large scale pairwise comparison subjective study and perform a
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig1.PNG" width="422" height="241"/><br/>
 
+The top two row presents two SISR results to be compared. The HR image is shown in the bottom-left window. The bottom-right window is used to show these three images for finer comparison. Users can switch different images by pressing the three buttons "HR", "SR1", "SR2" below the bottom-right window. Finally, users can make their choices by pressing the corresponding button below the SR image windows to submit a binary preference label, i.e., "1" or "-1". There are 60 subjects participant our user study and we divide them into 6 group, i.e., 10 subjects per group. Each group is responsible for one scene type attribute group and as a result, we get 65400 votes totally. What's more, we are interesting in asking the participants "Why don't you like another picture?" We provide nine reasons to form the questionnaire, as shown in the following table. 
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table2.PNG" width="410" height="219"/><br/>
+
 
 
 
