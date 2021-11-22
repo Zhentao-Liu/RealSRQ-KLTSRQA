@@ -45,17 +45,15 @@ We apply significance test to classify the evaluated algorithms based on the dif
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig5.PNG" width="381" height="220"/><br/>
 
 ### Human Preference Analysis
-This part analyzes the results collected in the additional questionnaire during the human subjective study. We show the vote percentages of all the reasons for LR2 in the following figure. 
+This part analyzes the results collected in the additional questionnaire during the human subjective study. We show the vote percentages of all the reasons for LR2 in the following figure. The *i*-th element in each row represents the vote percentage of the Reason #*i* for corresponding SISR algorithm in this row. In general, Reason #2 gets the highest vote percentage and Reasons #3, #5, #7 get relatively higher vote percentage than the rest reasons. 
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig6.PNG" width="361" height="206"/><br/>
 
+# KLTSRQA: An Objective NR Quality Metric for SISR
+## Motivation
+As shown above, the distortions on macro-structures (e.g., edges and contours) and micro-structures (e.g., texture and details) are the main factors affecting the visual quality of SISR results. The KLT coefficients in different spectral components actually account for different image components, i.e., the front part of spectral components in the KLT coefficient matrix accounts for macro-structures while the latter part accounts for micro-structures. We shown this characteristic in the following figure which demonstrates the image reconstruction process.
 
-
-# KLTSRQA
-In our paper, we demonstrate that the existing objective metrics can not precisely evaluated the SISR results. To solve this problem, we propose a new objective metric, i.e., KLTSRQA, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of real-world SISR images accurately. The extensive experiments in our paper demonstrate that KLTSRQA is highly consistent with human perception.
-
-
-
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig7.PNG" width="914" height="457"/><br/>
 
 
 
