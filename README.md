@@ -39,11 +39,6 @@ We collect 60 HR images in total. We randomly sample *a* (*a*=5,15,25,35,45,55) 
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig4.PNG" width="409" height="291"/><br/>
 
-### Significance Test
-We apply significance test to classify the evaluated algorithms based on the difference of the subjective votes. The following figure shows the grouping results for LR2. Algorithm's performance decreases from left to right. ASDS and USRnet always fall into first and second ranking groups.
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig5.PNG" width="381" height="220"/><br/>
-
 ### Human Preference Analysis
 This part analyzes the results collected in the additional questionnaire during the human subjective study. We show the vote percentages of all the reasons for LR2 in the following figure. The *i*-th element in each row represents the vote percentage of the Reason #*i* for corresponding SISR algorithm in this row. In general, Reason #2 gets the highest vote percentage and Reasons #3, #5, #7 get relatively higher vote percentage than the rest reasons. 
 
