@@ -40,10 +40,18 @@ tend to be stable.
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig4.PNG" width="409" height="291"/><br/>
 
+### Significance Test
+We apply significance test to classify the evaluated algorithms based on the difference of the subjective votes. The following figure shows the grouping results for LR2. Algorithm's performance decreases from left to right. ASDS and USRnet always fall into first and second ranking groups.
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig5.PNG" width="381" height="220"/><br/>
+
 # KLTSRQA
 In our paper, we demonstrate that the existing objective metrics can not precisely evaluated the SISR results. To solve this problem, we propose a new objective metric, i.e., KLTSRQA, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of real-world SISR images accurately. The extensive experiments in our paper demonstrate that KLTSRQA is highly consistent with human perception.
 
-# References
+
+
+
+
 
 # Download
 You can download our constructed dataset [*RealSRQ*](https://pan.baidu.com/s/14yuztHcMpej5OyNMBvK3BA) (key:1121) on BaiduYun disk. As long as our paper is published, we will upload our software *KLTSRQA*. To be continued.
