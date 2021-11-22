@@ -78,7 +78,7 @@ To further demonstrate the superiority of *KLTSRQA*, we also conduct the statist
 ### Algorithm Performance Test on *QADS*
 In addition to *RealSRQ*, we also conduct performance test on a recently published synthetic SISR dataset *QADS* to more comprehensively validate the performance of *KLTSRQA*. The numerical performance results are shown in the following table. *KLTSRQA* still achieves the best numerical performance results (i.e., the highest PLCC, KROCC, and SROCC values, while the lowest RMSE value) on *QADS*. 
 
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="400" height="300"/><br/>
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="320" height="340"/><br/>
 
 The scatter plots are shown in the following figure. The scatter plot of *KLTSRQA* is also highly in line with the subjective scores, which further demonstrates its superiority and good robustness on different datasets.
 
@@ -87,6 +87,11 @@ The scatter plots are shown in the following figure. The scatter plot of *KLTSRQ
 The following figure presents the t-test results. It is seen that *KLTSRQA* performs statistically better than almost all the competing NR-IQA metrics.
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig12.PNG" width="391" height="290"/><br/>
+
+### Running Time
+We test the running time of different NR-IQA metrics with the same setting and platform. The testing image is a 1200 × 800 color image in the RGB format. The experiments are all conducted on a PC with an AMD Ryzen 7 4800H@2.9GHZ CPU and 16GB RAM. The software platform is MATLAB R2018a. The running time comparison of different NR-IQA metrics can be found in the following table. It is observed that the proposed *KLTSRQA* is highly efficient, i.e., it only requires less than 0.5 second to process a 1200 × 800 color image.
+
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table5.PNG" width="1278" height="57"/><br/>
 
 # Download
 You can download our constructed dataset [*RealSRQ*](https://pan.baidu.com/s/14yuztHcMpej5OyNMBvK3BA) (key:1121) on BaiduYun disk. As long as our paper is published, we will upload our software *KLTSRQA*. To be continued.
