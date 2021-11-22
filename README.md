@@ -78,7 +78,7 @@ To further demonstrate the superiority of *KLTSRQA*, we also conduct the statist
 ### Algorithm Performance Test on *QADS*
 In addition to *RealSRQ*, we also conduct performance test on a recently published synthetic SISR dataset *QADS* to more comprehensively validate the performance of *KLTSRQA*. The numerical performance results are shown in the following table. *KLTSRQA* still achieves the best numerical performance results (i.e., the highest PLCC, KROCC, and SROCC values, while the lowest RMSE value) on *QADS*. 
 
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="252" height="233"/><br/>
+<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="400" height="300"/><br/>
 
 The scatter plots are shown in the following figure. The scatter plot of *KLTSRQA* is also highly in line with the subjective scores, which further demonstrates its superiority and good robustness on different datasets.
 
