@@ -1,5 +1,5 @@
 # Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and An Objective Metric
-This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. For more details, please refer to our paper: Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and An Objective Metric, Qiuping Jiang, Zhentao Liu, Ke Gu, Feng Shao, Xinfeng Zhang, Hantao Liu, Weisi Lin, submitted to TIP, 2021. You can change our program as you like and use it anywhere, but please refer to its original source and cite our paper.
+This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. For more details, please refer to our paper: Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and An Objective Metric, Qiuping Jiang, Zhentao Liu, Ke Gu, Feng Shao, Xinfeng Zhang, Hantao Liu, Weisi Lin, IEEE Transactions on Image Processing, 2022. You can change our program as you like and use it anywhere, but please refer to its original source and cite our paper. The following is brief description of our work, please refer to our paper for more details.
 
 # Abstract
 Numerous single image super-resolution (SISR) algorithms have been proposed to reconstruct a high-resolution (HR) image from its low-resolution (LR) observation. However, the majority of these algorithms are only validated on synthetic data. So far, the lack of comprehensive human subjective study on large-scale real-world SISR datasets and accurate objective SISR quality assessment metrics makes it unreliable to truly understand the performance of different SISR algorithms on real-world data. We make the following attemps tackle these two issues. Firstly, we construct a real-world SISR quality dataset (i.e., *RealSRQ*) and conduct human subjective studies to compare the performance of the representative SISR algorithms. Secondly, we propose a objective metric, i.e., *KLTSRQA*, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of real-world SISR images in a no-reference (NR) manner. Experiments on our constructed *RealSRQ* and the latest synthetic SISR quality dataset (i.e., *QADS*) have demonstrated the superiority of our proposed *KLTSRQA* metric, achieving higher consistency with human subjective scores than relevant existing NR image quality assessment (NR-IQA) metrics.
@@ -49,5 +49,11 @@ We test the running time of different NR-IQA metrics with the same setting and p
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table5.PNG" width="1278" height="57"/><br/>
 
+# Contact Us
+If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaolau@163.com.
+
 # Download
-You can download our constructed dataset [*RealSRQ*](https://pan.baidu.com/s/14yuztHcMpej5OyNMBvK3BA) (key:1121) on BaiduYun disk. And our software *KLTSRQA* has been uploaded.
+You can download our constructed dataset and proposed software from
+BaiduYun disk: [*RealSRQ-KLTSRQA-released*](https://pan.baidu.com/s/15ZgfpW1b2_gMAETBUeszSg) (key:1121)
+Google Drive: 
+
