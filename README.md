@@ -50,4 +50,4 @@ We test the running time of different NR-IQA metrics with the same setting and p
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table5.PNG" width="1278" height="57"/><br/>
 
 # Download
-You can download our constructed dataset [*RealSRQ*](https://pan.baidu.com/s/14yuztHcMpej5OyNMBvK3BA) (key:1121) on BaiduYun disk. As long as our paper is published, we will upload our software *KLTSRQA*. To be continued.
+You can download our constructed dataset [*RealSRQ*](https://pan.baidu.com/s/14yuztHcMpej5OyNMBvK3BA) (key:1121) on BaiduYun disk. And our software *KLTSRQA* has been uploaded.
