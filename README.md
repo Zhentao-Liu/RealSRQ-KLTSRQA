@@ -26,7 +26,7 @@ If you have any problem of our program, please feel free to contact with the aut
 # Download
 You can download our constructed dataset and proposed software from  
 BaiduYun disk: [*RealSRQ-KLTSRQA-released*](https://pan.baidu.com/s/15ZgfpW1b2_gMAETBUeszSg) (key:1121)  
-Google Drive: 
+Google Drive: will be uploaded soon. To be continued.
 
 # Reference
 [1] F. Zhou, R. Yao, B. Liu, and G. Qiu, “Visual quality assessment for super-resolved images: Database and method,” IEEE Transactions on Image Processing, vol. 28, no. 7, pp. 3528–3541, 2019.  
