@@ -21,7 +21,7 @@ The flow chart of *KLTSRQA* is depicted in the following figure. The input of *K
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig8.PNG" width="618" height="288"/><br/>
 
 # Contact Us
-If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaolau@163.com.
+If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
 
 # Download
 You can download our constructed dataset and proposed software from  
