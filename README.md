@@ -16,42 +16,11 @@ In this study, we evaluate 10 representative SISR algorithms, include BCI, ASDS,
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table1.PNG" width="400" height="190"/><br/>
 
-## Global Ranking of SISR Algorithms
-We conduct a large scale pairwise comparison subjective study and perform a comprehensive analysis to quantify the performance of the SISR algorithms that we selected. We only generate comparison pairs from the same scene and the same scaling factor. We adopt the Bradley-Terry model to derive the global ranking of SISR algorithms from the corresponding pairwise comparison results. By applying the B-T model on each group, we can get a B-T score for each SISR result in this group. Then, we rank the evaluated SISR results/algorithms based on the average B-T scores, as shown in the following figure. It is easily to find that ASDS gets the highest B-T score at all scaling factors.
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig2.PNG" width="863" height="227"/><br/>
-
-For more comprehensive analysis on the subjective ratings, please refer to our paper.
-
 # KLTSRQA: An Objective NR Quality Metric for SISR
 ## KLTSRQA
 The flow chart of *KLTSRQA* is depicted in the following figure. The input of *KLTSRQA* is a to-be-evaluated SISR image and the output is an estimated quality score. For an input SISR image in the RGB format, we first convert it into the opponent color space and then perform a local mean subtraction and divisive normalization on each color channel to obtain three mean subtracted contrast normalized (MSCN) coefficient maps. The KLT is performed on the corresponding MSCN maps using the KLT kernels that we have constructed offline. Therefore, we can obtain three KLT coefficient matrices corresponding to the three opponent color channels. Based on the obtained KLT coefficient matrix for each channel, quality-aware feature extraction is performed from two aspects. On the first aspect, we use the asymmetric generalized Gaussian distribution (AGGD) model to fit the KLT coefficients in different spectral components and the estimated AGGD parameters are taken as the first part of features. On the second aspect, we compute the energy of the KLT coefficients in different spectral components as the second part of features. These two parts of features are combined together and aggregated over three channels to yield a final quality-aware feature vector for quality score prediction via the SVMrank model.
 
 <img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig8.PNG" width="618" height="288"/><br/>
-
-## Experimental Results
-### Algorithm Performance Test on RealSRQ
-First, we test the performance of *KLTSRQA* on *RealSRQ*. To demonstrate the superiority of our method, 15 existing relevant NR-IQA metrics for comparison. The selected 15 NR-IQA metrics are GM-LOG, BLIINDS-II, CurveletQA, BRISQUE, OG-IQA, SSEQ, DIIVINE, RISE, BMPRI, FRIQUEE, NIQE, ILNIQE, HVS-MaxPol, PCRL, and SR-metric. Among these methods, NIQE, ILNIQE, and HVS-MaxPol are training-free while the rests are all training-based. For all the training-based methods, the regression functions are all implemented by SVMrank for fair comparison. The performance results of these algorithms are shown in the following table. As shown, *KLTSRQA* achieves the best performance in terms of all performance criteria, i.e., KROCC, SROCC, PLCC, and RMSE, at all three scaling factors. 
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table3.PNG" width="739" height="287"/><br/>
-
-The scatter plots of different metrics are shown in the following figure. We can observe that the proposed *KLTSRQA* metric is more in line with subjective B-T scores.
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig9.PNG" width="756" height="576"/><br/>
-
-### Algorithm Performance Test on QADS
-In addition to *RealSRQ*, we also conduct performance test on a recently published synthetic SISR dataset *QADS* to more comprehensively validate the performance of *KLTSRQA*. The numerical performance results are shown in the following table. *KLTSRQA* still achieves the best numerical performance results (i.e., the highest PLCC, KROCC, and SROCC values, while the lowest RMSE value) on *QADS*. 
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table4.PNG" width="320" height="340"/><br/>
-
-The scatter plots are shown in the following figure. The scatter plot of *KLTSRQA* is also highly in line with the subjective scores, which further demonstrates its superiority and good robustness on different datasets.
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Fig11.PNG" width="756" height="576"/><br/>
-
-### Running Time
-We test the running time of different NR-IQA metrics with the same setting and platform. The testing image is a 1200 × 800 color image in the RGB format. The experiments are all conducted on a PC with an AMD Ryzen 7 4800H@2.9GHZ CPU and 16GB RAM. The software platform is MATLAB R2018a. The running time comparison of different NR-IQA metrics can be found in the following table. It is observed that the proposed *KLTSRQA* is highly efficient, i.e., it only requires less than 0.5 second to process a 1200 × 800 color image.
-
-<img src="https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/blob/main/images/Table5.PNG" width="1278" height="57"/><br/>
 
 # Contact Us
 If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaolau@163.com.
