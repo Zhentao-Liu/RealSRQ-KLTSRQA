@@ -29,12 +29,20 @@ If you have any problem of our program, please feel free to contact with the aut
 # Citation
 - If you find this work is useful for you, please cite the following paper:
 >>@ARTICLE{9727079,
->>author={Jiang, Qiuping and Liu, Zhentao and Gu, Ke and Shao, Feng and Zhang, Xinfeng and Liu, Hantao and Lin, Weisi},
->>journal={IEEE Transactions on Image Processing}, 
->>title={Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and an Objective Metric}, 
->>year={2022},
->>volume={31},
->>number={},
->>pages={2279-2294},
->>doi={10.1109/TIP.2022.3154588}
+>>
+>author={Jiang, Qiuping and Liu, Zhentao and Gu, Ke and Shao, Feng and Zhang, Xinfeng and Liu, Hantao and Lin, Weisi},
+>
+>journal={IEEE Transactions on Image Processing}, 
+>
+>title={Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and an Objective Metric}, 
+>
+>year={2022},
+>
+>volume={31},
+>
+>number={},
+>
+>pages={2279-2294},
+>
+>doi={10.1109/TIP.2022.3154588}
 }
