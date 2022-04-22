@@ -9,7 +9,7 @@ You can change our program as you like and use it anywhere, but please refer to 
 1. [Abstract](#abstract)
 2. [Download](#Download)
 3. [Requirement](#requirement)
-4. [Contact Us](#Contact Us)
+4. [Questions](#Questions)
 5. [Citation](#Citation)
 
 # Abstract
@@ -23,7 +23,7 @@ Google Drive: [*RealSRQ-KLTSRQA-released*](https://drive.google.com/drive/folder
 # Requirement
 Matlab
 
-# Contact Us
+# Questions
 If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
 
 # Citation
