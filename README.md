@@ -28,8 +28,7 @@ If you have any problem of our program, please feel free to contact with the aut
 
 # Citation
 - If you find this work is useful for you, please cite the following paper:
->>@ARTICLE{9727079,
->>
+>@ARTICLE{9727079,
 >author={Jiang, Qiuping and Liu, Zhentao and Gu, Ke and Shao, Feng and Zhang, Xinfeng and Liu, Hantao and Lin, Weisi},
 >
 >journal={IEEE Transactions on Image Processing}, 
