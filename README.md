@@ -2,7 +2,7 @@
 This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. You can change our program as you like and use it anywhere, but please refer to its original source and cite our paper.
 
 # Table of content
-1. [Paper Link](#Paper Link)
+1. [Paper Link](#Paper-Link)
 2. [Abstract](#abstract)
 3. [Download](#Download)
 4. [Requirement](#requirement)
