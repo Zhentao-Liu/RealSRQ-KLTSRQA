@@ -13,7 +13,7 @@ This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. You c
 - Title: Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and An Objective Metric 
 - Publish: IEEE Transactions on Image Processing, 2022
 - Authors: Qiuping Jiang, Zhentao Liu, Ke Gu, Feng Shao, Xinfeng Zhang, Hantao Liu, Weisi Lin
-- Qiuping Jiang, Zhentao Liu, Ke Gu, Feng Shao, Xinfeng Zhang, Hantao Liu, Weisi Lin
+- Institution: The School of Information Science and Engineering, Ningbo University
 - Link: [2022-TIP-RealSRQA.pdf](https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/raw/0596e0bdb85366f62f4f845526c33aa4444e94ba/2022-TIP-RealSRQA.pdf)
 
 # Abstract
