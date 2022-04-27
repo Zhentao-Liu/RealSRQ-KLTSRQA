@@ -3,9 +3,9 @@ This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. You c
 
 # Table of content
 1. [Paper Link](#Paper-Link)
-2. [Abstract](#abstract)
+2. [Abstract](#Abstract)
 3. [Download](#Download)
-4. [Requirement](#requirement)
+4. [Requirement](#Requirement)
 5. [Questions](#Questions)
 6. [Citation](#Citation)
 
