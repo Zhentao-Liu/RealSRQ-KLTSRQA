@@ -26,7 +26,8 @@ BaiduYun Disk: [*RealSRQ-KLTSRQA-released*](https://pan.baidu.com/s/15ZgfpW1b2_g
 Google Drive: [*RealSRQ-KLTSRQA-released*](https://drive.google.com/drive/folders/1VTMBmxkZkZtbv_ONMME-7TRyfXNfRw9p?usp=sharing)
 
 # Requirement
-Matlab
+Matlab R2019a 
+Important note: other versions may lead to some errors.
 
 # Questions
 If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
