@@ -28,7 +28,7 @@ Google Drive: [*RealSRQ-KLTSRQA-released*](https://drive.google.com/drive/folder
 # Requirement
 Matlab R2019a 
 
-Important note: other versions may lead to some errors.
+Important Note: other versions may lead to some errors.
 
 # Questions
 If you have any problem of our program, please feel free to contact with the authors: jiangqiuping@nbu.edu.cn, zhentaoliu0319@163.com.
