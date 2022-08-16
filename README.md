@@ -1,5 +1,5 @@
 # Single Image Super-Resolution Quality Assessment: A Real-World Dataset, Subjective Studies, and An Objective Metric
-This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. You can change our program as you like and use it anywhere, but please refer to its original source and cite our paper.
+This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. You can change our program as you like and use it for academic, but please refer to its original source and cite our paper.
 
 # Table of content
 1. [Link](#Link)
