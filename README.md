@@ -25,7 +25,7 @@ You can download our constructed dataset and proposed software from
 BaiduYun Disk: [*RealSRQ-KLTSRQA-released*](https://pan.baidu.com/s/15ZgfpW1b2_gMAETBUeszSg) (key:1121)  
 Google Drive: [*RealSRQ-KLTSRQA-released*](https://drive.google.com/drive/folders/1VTMBmxkZkZtbv_ONMME-7TRyfXNfRw9p?usp=sharing)
 
-Important note: Before you use my dataset, please read the README.txt file carefully especially for the data structure of BT-score.mat. I believe this will help you understand our work.
+Important note: Before you use our dataset, please read the README.txt file carefully especially for the data structure of BT-score.mat. I believe this will help you understand our work.
 
 # Requirement
 Matlab R2019a 
