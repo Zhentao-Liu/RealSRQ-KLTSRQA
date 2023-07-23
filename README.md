@@ -14,7 +14,7 @@ This is the brief description of *RealSRQ* dataset and *KLTSRQA* software. You c
 - Publish: IEEE Transactions on Image Processing, 2022
 - Authors: Qiuping Jiang, Zhentao Liu, Ke Gu, Feng Shao, Xinfeng Zhang, Hantao Liu, Weisi Lin
 - Institution: The School of Information Science and Engineering, Ningbo University
-- Paper: [2022-TIP-RealSRQA](https://github.com/Zhentao-Liu/RealSRQ-KLTSRQA/raw/0596e0bdb85366f62f4f845526c33aa4444e94ba/2022-TIP-RealSRQA.pdf)
+- Paper: [2022-TIP-RealSRQA](https://ieeexplore.ieee.org/document/9727079)
 
 # Abstract
 Numerous single image super-resolution (SISR) algorithms have been proposed during the past years to reconstruct a high-resolution (HR) image from its low-resolution (LR) observation. However, how to fairly compare the performance of different SISR algorithms/results remains a challenging problem. So far, the lack of comprehensive human subjective study on large-scale real-world SISR datasets and accurate objective SISR quality assessment metrics makes it unreliable to truly understand the performance of different SISR algorithms. We in this paper make efforts to tackle these two issues. Firstly, we construct a real-world SISR quality dataset (i.e., RealSRQ) and conduct human subjective studies to compare the performance of the representative SISR algorithms. Secondly, we propose a new objective metric, i.e., KLTSRQA, based on the Karhunen-Loeve Transform (KLT) to evaluate the quality of SISR images in a no-reference (NR) manner. Experiments on our constructed RealSRQ
